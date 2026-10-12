@@ -15,24 +15,11 @@
   preview.append(image, title);
   document.body.append(preview);
 
-  const cache = new Map();
   let currentLink = null;
   let timer = null;
   let request = 0;
   let pointerX = 0;
   let pointerY = 0;
-
-  async function load(url) {
-    if (!cache.has(url)) {
-      const pending = fetch(url, { credentials: 'same-origin' })
-        .then(response => response.ok && response.headers.get('content-type')?.includes('text/html') ? response.text() : null)
-        .then(html => html ? AqwWikiItem.parseItem(html, url) : null)
-        .catch(() => null);
-      cache.set(url, pending);
-      if (cache.size > 100) cache.delete(cache.keys().next().value);
-    }
-    return cache.get(url);
-  }
 
   function place() {
     const gap = 14;
@@ -63,7 +50,7 @@
     pointerY = event.clientY;
     const id = request;
     timer = setTimeout(async () => {
-      const item = await load(url);
+      const item = await AqwWikiLoader.load(url);
       if (!item || id !== request || currentLink !== link) return;
       image.onload = () => {
         if (id !== request) return;

@@ -1,0 +1,23 @@
+.wiki-content-table .aqw-photo-heading,
+.wiki-content-table .aqw-photo-cell {
+  width: 80px;
+  min-width: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wiki-content-table .aqw-photo-cell {
+  padding: 4px;
+}
+
+.wiki-content-table .aqw-photo-cell a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.wiki-content-table .aqw-photo-cell img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
