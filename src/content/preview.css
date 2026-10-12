@@ -1,0 +1,36 @@
+.aqw-preview {
+  position: fixed;
+  z-index: 2147483647;
+  display: none;
+  max-width: min(360px, calc(100vw - 24px));
+  padding: 8px;
+  border: 1px solid #6b6b6b;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .32);
+  color: #222;
+  font: 13px Arial, sans-serif;
+  pointer-events: none;
+}
+
+.aqw-preview[data-visible="true"] {
+  display: block;
+}
+
+.aqw-preview__image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(430px, calc(100vh - 65px));
+  margin: auto;
+  object-fit: contain;
+}
+
+.aqw-preview__title {
+  max-width: 340px;
+  margin: 6px 2px 0;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
