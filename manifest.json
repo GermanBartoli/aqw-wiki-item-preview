@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "AQW Wiki Item Preview",
-  "description": "Muestra la imagen de un objeto al pasar el mouse sobre su enlace en AQW Wiki.",
-  "version": "1.0.0",
+  "description": "Muestra imágenes de objetos al pasar el mouse y en las tablas de AQW Wiki.",
+  "version": "1.1.0",
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
@@ -11,8 +11,8 @@
   "content_scripts": [
     {
       "matches": ["https://aqwwiki.wikidot.com/*"],
-      "js": ["src/core/item-page.js", "src/content/preview.js"],
-      "css": ["src/content/preview.css"],
+      "js": ["src/core/item-page.js", "src/content/item-loader.js", "src/content/preview.js", "src/content/table-preview.js"],
+      "css": ["src/content/preview.css", "src/content/table-preview.css"],
       "run_at": "document_idle"
     }
   ]
