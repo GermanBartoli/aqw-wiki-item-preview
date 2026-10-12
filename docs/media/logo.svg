@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-label="AQW Wiki Item Preview">
+  <rect width="760" height="180" rx="22" fill="#181923"/>
+  <rect y="0" width="760" height="10" fill="#eeb74a"/>
+  <circle cx="91" cy="90" r="59" fill="#a81422" stroke="#eeb74a" stroke-width="5"/>
+  <text x="91" y="101" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">AQW</text>
+  <text x="180" y="83" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="bold">Wiki Item Preview</text>
+  <text x="183" y="124" fill="#eeb74a" font-family="Arial, sans-serif" font-size="22">Mirá el objeto antes de abrir su artículo</text>
+</svg>
