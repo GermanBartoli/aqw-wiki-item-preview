@@ -6,9 +6,9 @@ Extensión de Chrome que muestra imágenes de objetos en las tablas de [AQW Wiki
 
 ## Ejemplo
 
-| Enlace en la tienda | Imagen del artículo enlazado |
-| --- | --- |
-| <img src="docs/media/wiki-shop-preview-200px.png" alt="Trissa's Shop con la columna Foto y las armaduras en miniaturas de 200 × 200 píxeles" width="700"> | <img src="docs/media/wiki-item.png" alt="Armadura Adept of Awe en su artículo" width="260"> |
+| Enlace en la tienda |
+| --- |
+| <img src="docs/media/wiki-shop-preview-200px.png" alt="Trissa's Shop con la columna Foto y las armaduras en miniaturas de 200 × 200 píxeles" width="700"> |
 
 La primera captura muestra la extensión en la pestaña **Classes / Armors** de Trissa's Shop. La columna **Foto** presenta las imágenes en un área de **200 × 200 px**.
 
