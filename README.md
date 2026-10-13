@@ -8,14 +8,14 @@ Extensión de Chrome que muestra imágenes de objetos en las tablas de [AQW Wiki
 
 | Enlace en la tienda | Imagen del artículo enlazado |
 | --- | --- |
-| <img src="docs/media/wiki-shop.png" alt="Enlace Adept of Awe en Trissa's Shop" width="520"> | <img src="docs/media/wiki-item.png" alt="Armadura Adept of Awe en su artículo" width="260"> |
+| <img src="docs/media/wiki-shop-preview-200px.png" alt="Trissa's Shop con la columna Foto y las armaduras en miniaturas de 200 × 200 píxeles" width="700"> | <img src="docs/media/wiki-item.png" alt="Armadura Adept of Awe en su artículo" width="260"> |
 
-Estas capturas muestran las páginas de referencia aportadas para el proyecto. La columna y la vista flotante se generan sobre la tienda; todavía no hay una captura de la extensión en funcionamiento.
+La primera captura muestra la extensión en la pestaña **Classes / Armors** de Trissa's Shop. La columna **Foto** presenta las imágenes en un área de **200 × 200 px**.
 
 ## Qué hace
 
 - Reconoce enlaces de artículos dentro del contenido de la wiki, incluso en pestañas de tiendas.
-- Añade una columna **Foto** a las tablas de objetos con **Name** y **Price**. Carga todas las miniaturas, incluso en pestañas ocultas, con hasta tres consultas simultáneas.
+- Añade una columna **Foto** con imágenes de **200 × 200 px** a las tablas de objetos con **Name** y **Price**. Carga todas las miniaturas, incluso en pestañas ocultas, con hasta tres consultas simultáneas.
 - Consulta el artículo enlazado tras una pausa de 250 ms y muestra la primera imagen del objeto.
 - Omite iconos de AC, rareza y categorías, además de páginas que no son fichas de objetos.
 - Oculta la imagen al salir del enlace o desplazar la página. Conserva resultados en memoria durante la pestaña.
