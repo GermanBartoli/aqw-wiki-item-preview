@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 Set-Location (Join-Path $PSScriptRoot '..')
-npm run build
+pnpm run build
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 $version = (Get-Content -Raw -LiteralPath 'manifest.json' | ConvertFrom-Json).version
 New-Item -ItemType Directory -Force -Path 'releases' | Out-Null

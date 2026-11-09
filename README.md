@@ -53,9 +53,9 @@ Descargá `aqw-wiki-item-preview-1.1.0.zip` desde el [release v1.1.0](https://gi
 Requiere Node.js 22 o posterior y PowerShell para generar el ZIP. No hay paquetes que instalar.
 
 ```sh
-npm test
-npm run build
-npm run package
+pnpm test
+pnpm run build
+pnpm run package
 ```
 
 `dist/` es la carpeta para **Cargar descomprimida**. `releases/` contiene el ZIP. Ver [arquitectura](docs/arquitectura.md) y [verificación](docs/verificacion.md).
