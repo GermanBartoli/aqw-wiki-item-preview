@@ -1,4 +1,21 @@
-# AQW Wiki Item Preview
+# AQW Wiki · Item Preview
+
+**Mirá las imágenes de los objetos directamente en las tiendas y enlaces de AQW Wiki.**
+
+[![Repositorio](https://img.shields.io/badge/GitHub-GermanBartoli-181717?logo=github)](https://github.com/GermanBartoli/aqw-wiki-item-preview)
+[![Verificaciones](https://github.com/GermanBartoli/aqw-wiki-item-preview/actions/workflows/ci.yml/badge.svg)](https://github.com/GermanBartoli/aqw-wiki-item-preview/actions/workflows/ci.yml)
+
+[Descargas](https://github.com/GermanBartoli/aqw-wiki-item-preview/releases) · [Empezar](#primeros-pasos) · [Mapa del repositorio](#mapa-del-repositorio) · [Autoría](#autoría-de-esta-documentación)
+
+![Vista del proyecto: AQW Wiki · Item Preview](docs/media/wiki-shop-preview-200px.png)
+
+## Primeros pasos
+
+1. Descargá el ZIP indicado en Descarga y cargá la carpeta descomprimida en Chrome.
+2. Abrí una tienda de AQW Wiki con columnas Name y Price: aparecerá la columna Foto.
+3. Apuntá a un enlace de objeto para ver su imagen; la extensión reutiliza la información mientras la pestaña siga abierta.
+
+## Referencia y detalles
 
 <img src="docs/media/logo.svg" alt="AQW Wiki Item Preview" width="600">
 
@@ -62,3 +79,16 @@ La selección usa la estructura actual de las fichas de AQW Wiki. Una página si
 ## Licencia y créditos
 
 Código bajo licencia [MIT](LICENSE). Las capturas de AQW Wiki son material de referencia aportado para el proyecto; el contenido de la wiki indica [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) salvo indicación contraria. Las imágenes de los objetos permanecen en sus hosts originales.
+
+## Mapa del repositorio
+
+- [package.json](<package.json>)
+- [LICENSE](<LICENSE>)
+- [docs/arquitectura.md](<docs/arquitectura.md>)
+- [docs/verificacion.md](<docs/verificacion.md>)
+
+## Autoría de esta documentación
+
+Repositorio mantenido por [Germán Bartoli](https://github.com/GermanBartoli). Guía revisada y actualizada con **Codex**, coautor de esta actualización documental. Los autores, colaboradores, licencias y recursos de terceros conservan sus créditos originales.
+
+Los commits de esta revisión incluyen `Co-authored-by: Codex <noreply@openai.com>`; esta atribución no modifica la autoría del historial anterior.
