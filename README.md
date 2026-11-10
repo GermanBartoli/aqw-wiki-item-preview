@@ -50,7 +50,7 @@ Descargá `aqw-wiki-item-preview-1.1.0.zip` desde el [release v1.1.0](https://gi
 
 ## Desarrollo
 
-Requiere Node.js 22 o posterior y PowerShell para generar el ZIP. No hay paquetes que instalar.
+Requiere Node.js 24 o posterior y PowerShell para generar el ZIP. No hay paquetes que instalar.
 
 ```sh
 pnpm test
